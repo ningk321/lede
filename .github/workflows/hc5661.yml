@@ -9,10 +9,10 @@
 
 name: OpenWrt-hc5661
 
-on:
-  push:
-    branches: 
-      - master
+# on:
+#   push:
+#     branches: 
+#       - master
   # schedule:
   #   - cron: 0 20 * * *
   # release:
