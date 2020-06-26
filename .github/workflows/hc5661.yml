@@ -9,9 +9,9 @@
 
 name: OpenWrt-hc5661
 
-# on:
-#   push:
-#     branches: 
+on:
+  push:
+    branches: 
       - master
   # schedule:
   #   - cron: 0 20 * * *
@@ -233,5 +233,5 @@ jobs:
       - name: Upload firmware
         uses: actions/upload-artifact@master
         with:
-          name: OpenWrt_firmware
+          name: hc5661withpasswall
           path: ./bin/targets/
